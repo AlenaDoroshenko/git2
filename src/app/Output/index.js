@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Output = () => {
+const Output = (props) => {
+    const { total } = props
+
     return (
-        <div className='output p-20'>
-            0
-        </div>
+        <div className='output p-20'>{total}</div>
     )
 }
 
