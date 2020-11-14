@@ -49,6 +49,6 @@ input {
     margin: 3px;
 }
 
-.btn-result {
+.btn-clear {
     width: calc(100% - 6px);
 }
